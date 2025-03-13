@@ -2,6 +2,8 @@
 
 **SRE From Scratch** is a book designed for **teams and individuals** who want to **implement Site Reliability Engineering (SRE) principles** but **lack executive buy-in, funding, or top-down initiatives**. This guide provides **practical, no-nonsense strategies** to **bootstrap SRE functions** in any environment—whether you're in a **startup, mid-sized business, or large enterprise** without formal SRE structures.
 
+---
+
 ## 🚀 Why This Book?
 Many organizations struggle to **adopt SRE** because:
 - There's **no formal SRE team or budget**.
@@ -13,22 +15,71 @@ Many organizations struggle to **adopt SRE** because:
 
 ---
 
-## 📖 What You’ll Learn
-### ✅ **Phase 1: Foundations**
-- **What is SRE, Really?** → Defining SRE in practical, no-BS terms.
-- **How to Get Started Without an Official SRE Team**.
-- **SRE vs. DevOps vs. IT Operations** – What actually matters?
+## 📖 Book Outline
 
-### ✅ **Phase 2: Implementing SRE in a Resource-Constrained Environment**
-- **How to Set SLIs and SLOs Without a Dedicated Team**.
-- **Incident Management on a Budget** – Automating incident response with open-source tools.
-- **Building an Observability Stack Without Splunk or Datadog**.
-- **Service Reliability Reviews: A Lightweight Approach**.
+### **Introduction**
+- What is SRE, and why does it matter?
+- The challenges of starting an SRE program
+- Who this book is for
 
-### ✅ **Phase 3: Scaling SRE Without an Official Budget**
-- **Convincing Leadership That SRE is Worth It**.
-- **How to Transition From “Keeping the Lights On” to Actual Reliability Engineering**.
-- **Making SRE a Part of the Culture Without Dedicated SREs**.
+---
+
+### **Part 1: Laying the Foundation**
+#### **Chapter 1: Defining the SRE Mission**
+- Aligning SRE with business objectives
+- Crafting a mission that fits your organization
+
+#### **Chapter 2: Structuring Your SRE Team**
+- The three pillars of SRE: Incident Response, Observability, Tooling & Automation
+- Team models: Cross-functional vs. dedicated teams
+
+#### **Chapter 3: Establishing Priorities**
+- Assessing the current state of reliability
+- Golden signals: What to measure first
+- Building leadership reports from day one
+
+---
+
+### **Part 2: Implementing SRE Practices**
+#### **Chapter 4: Getting Organizational Buy-In**
+- How to secure funding with limited resources
+- Creative ways to gain leadership and team support
+- Building relationships through team dinners, talks, and collaboration
+
+#### **Chapter 5: Measuring Reliability Effectively**
+- Cutting through the noise: Finding the right signals
+- Setting SLIs, SLOs, and error budgets that make sense
+- Aligning metrics with business objectives
+
+#### **Chapter 6: Alerting Without the Noise**
+- How to refine alerts to focus on what truly matters
+- Balancing automation with human oversight
+
+#### **Chapter 7: Incident Response and On-Call Rotations**
+- Setting up a sustainable on-call schedule
+- Effective postmortems: Turning failures into opportunities
+- Driving teams to implement fixes within SLA
+
+---
+
+### **Part 3: Driving a Reliability Culture**
+#### **Chapter 8: Avoiding Common Pitfalls**
+- Overcomplicating SRE: Why simplicity wins
+- Best practices vs. what actually works
+
+#### **Chapter 9: Balancing Reliability with Feature Development**
+- The role of error budgets in decision-making
+- Collaborating with engineering teams to maintain balance
+
+#### **Chapter 10: Scaling and Evolving Your SRE Program**
+- When and how to grow your SRE team
+- Adapting to organizational changes
+
+---
+
+### **Conclusion**
+- Final thoughts on SRE as an ongoing practice
+- How to continuously improve your program
 
 ---
 
